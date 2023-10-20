@@ -2,182 +2,772 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Assignment 2</title>
-  <link rel="stylesheet" href="style.css">
-  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"> -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OlX</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-  <div class="header">
-    <div class="head1">
-      <div class="h1-box1">
-        <img class="logo" src="pics/olx.png" />
-      </div>
-      <div class="h1-box2 hover-blue">
-        <a class="h1-box2" href="www.google.com">
-          <i class="fa fa-car"></i>
-          <p class="ms-5">MOTORS</p>
-        </a>
-      </div>
-      <div class="h1-box3 hover-blue">
-        <a class="h1-box3" href="www.google.com">
-        <i class="fa fa-building"></i>
-        <p class="ms-5">PROPERTY</p>
-      </a>
-      </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+    <div class="header-top">
+        <div>
+            <div class="head1">
+                <div class="h1-box1">
+                    <img class="logo" src="pics/olx.png" />
+                </div>
+                <div class="h1-box2 hover-blue">
+                    <a class="h1-box2" href="www.google.com">
+                        <ion-icon name="car-sport-outline"></ion-icon>
+                        <p class="ms-5">MOTORS</p>
+                    </a>
+                </div>
+                <div class="h1-box3 hover-blue">
+                    <a class="h1-box3" href="www.google.com">
+                        <ion-icon name="business-outline"></ion-icon>
+                        <p class="ms-5">PROPERTY</p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="head2">
+                <div class="h2-box1 set-logo">
+                    <img class="lg-logo" src="pics/black olx.png" alt="logo">
+                </div>
+                <div class="h2-box2">
+                    <p class="ms-5"><ion-icon name="search-outline"></ion-icon></p>
+                    <select class="search" name="country">
+                        <option value="Pakistan">Pakistan</option>
+                        <option value="Amerca">Amerca</option>
+                        <option value="Germony">Germony</option>
+                    </select>
+                </div>
+                <div class="h2-box3">
+                    <input class="search-2" type="text" placeholder="Find Cars, Mobiles Phones and more...">
+                    <div class="sh-icon"><ion-icon class="ic" name="search-outline"></ion-icon></i></div>
+                </div>
+                <div class="h2-box4">
+                    <a class="login" href="www.google.com">Login</a>
+                </div>
+                <div class="h2-box5">
+                    <img class="lg-logo-2" src="pics/sell-preview.png" alt="logo">
+                    <pre class="sell"><ion-icon name="search-outline"></ion-icon> <b>SELL</b></pre>
+                </div>
+            </div>
+        </div>
+
+        <div class="head3">
+            <div class="p-set">
+                <div class="box-3">
+                    <h3>All categories</h3>
+                    <img class="lg-logo-3" src="pics/dropdown.png" alt="">
+                </div>
+                <a class="hover-blue" href="www.google.com">Mobiles</a>
+                <a class="hover-blue" href="www.google.com">Cars</a>
+                <a class="hover-blue" href="www.google.com">Houses</a>
+                <a class="hover-blue" href="www.google.com">TV-Videos-Audio</a>
+                <a class="hover-blue" href="www.google.com">Tablets</a>
+                <a class="hover-blue" href="www.google.com">Land & Plots</a>
+            </div>
+        </div>
     </div>
-    <div class="head2">
-      <div class="h2-box1 set-logo">
-        <img class="lg-logo" src="pics/black olx.png" alt="logo">
-      </div>
-      <div class="h2-box2">
-        <p class="ms-5"><i class="fa fa-search "></i></p>
-        <select class="search" name="country">
-          <option value="Pakistan">Pakistan</option>
-          <option value="Amerca">Amerca</option>
-          <option value="Germony">Germony</option>
-        </select>
-      </div>
-      <div class="h2-box3">
-        <input class="search-2" type="text" placeholder="Find Cars, Mobiles Phones and more...">
-        <div class="sh-icon"><i class=" fa fa-search sh-2"></i></div>
-      </div>
-      <div class="h2-box4">
-        <a class="login" href="www.google.com">Login</a>
-      </div>
-      <div class="h2-box5">
-        <img class="lg-logo-2" src="pics/sell-preview.png" alt="logo">
-         <pre class="sell"> <i class="fa fa-plus"></i> <b>SELL</b></pre> 
-      </div>
+
+    <img class="ads" src="pics/ads.png" alt="ads">
+    <div class="all-cat p-250">
+        <h2>All categories</h2>
     </div>
-    <div class="head3">
-      <div class="p-set">
-        <div class="box-3">All categories
-      <img class="lg-logo-3" src="pics/dropdown.png" alt=""></div>
-      <a  class="hover-blue" href="www.google.com">Mobiles</a>
-      <a  class="hover-blue" href="www.google.com">Cars</a>
-      <a  class="hover-blue" href="www.google.com">Houses</a>
-      <a  class="hover-blue" href="www.google.com">TV-Videos-Audio</a>
-      <a  class="hover-blue" href="www.google.com">Tablets</a>
-      <a  class="hover-blue" href="www.google.com">Land & Plots</a>
-      </div>
-    </div>  
-  </div>
-  <img class="ads" src="pics/ads.png" alt="ads">
-  <h2>All categories</h2>
-<div class="categories">
-  <div class="cat">
-      <img class="c-i" src="pics/Mobiles.png" alt="">
-      <p class="c-n">Mobiles</p>
-  </div>
-  <div class="cat">
-    <img class="c-i" src="pics/vehicles.png" alt="">
-    <p class="c-n">Vehicles</p>
-  </div>
+    <div class="categories p-250">
+        <div class="cat">
+            <img class="c-i" src="pics/Mobiles.png" alt="">
+            <p class="c-n">Mobiles</p>
+        </div>
+        <div class="cat">
+            <img class="c-i" src="pics/vehicles.png" alt="">
+            <p class="c-n">Vehicles</p>
+        </div>
 
-  <div class="cat">
-    <img class="c-i" src="pics/property for sale.png" alt="">
-    <p class="c-n">Property For Sale</p>
-  </div>
+        <div class="cat">
+            <img class="c-i" src="pics/property for sale.png" alt="">
+            <p class="c-n">Property For Sale</p>
+        </div>
 
-  <div class="cat">
-    <img class="c-i" src="pics/property for rent.png" alt="">
-    <p class="c-n">Property For Rent</p>
-  </div>
+        <div class="cat">
+            <img class="c-i" src="pics/property for rent.png" alt="">
+            <p class="c-n">Property For Rent</p>
+        </div>
 
-  <div class="cat">
-    <img class="c-i" src="pics/Electronics.png" alt="">
-    <p class="c-n">Electronics & Home  Appliances</p>
-  </div>
+        <div class="cat">
+            <img class="c-i" src="pics/Electronics.png" alt="">
+            <p class="c-n">Electronics & Home Appliances</p>
+        </div>
 
-  <div class="cat">
-    <img class="c-i" src="pics/bikes.png" alt="">
-    <p class="c-n">Bikes</p>
-  </div>
+        <div class="cat">
+            <img class="c-i" src="pics/bikes.png" alt="">
+            <p class="c-n">Bikes</p>
+        </div>
 
-  <div class="cat">
-    <img class="c-i" src="pics/business.png" alt="">
-    <p class="c-n">Business, Industria & Agriculture</p>
-  </div>
+        <div class="cat">
+            <img class="c-i" src="pics/business.png" alt="">
+            <p class="c-n">Business, Industria & Agriculture</p>
+        </div>
 
-  <div class="cat">
-    <img class="c-i" src="pics/servise.png" alt="">
-    <p class="c-n">Services</p>
-  </div>
+        <div class="cat">
+            <img class="c-i" src="pics/servise.png" alt="">
+            <p class="c-n">Services</p>
+        </div>
 
-  <div class="cat">
-    <img class="c-i" src="pics/jobs.png" alt="">
-    <p class="c-n">Jobs</p>
-  </div>
+        <div class="cat">
+            <img class="c-i" src="pics/jobs.png" alt="">
+            <p class="c-n">Jobs</p>
+        </div>
 
-  <div class="cat">
-    <img class="c-i" src="pics/animals.png" alt="">
-    <p class="c-n">Animals</p>
-  </div>
+        <div class="cat">
+            <img class="c-i" src="pics/animals.png" alt="">
+            <p class="c-n">Animals</p>
+        </div>
 
-  <div class="cat">
-    <img class="c-i" src="pics/furniture.png" alt="">
-    <p class="c-n">Furniture & Home Decor</p>
-  </div>
+        <div class="cat">
+            <img class="c-i" src="pics/furniture.png" alt="">
+            <p class="c-n">Furniture & Home Decor</p>
+        </div>
 
-  <div class="cat">
-    <img class="c-i" src="pics/fashion.png" alt="">
-    <p class="c-n">Fashion & Beauty</p>
-  </div>
+        <div class="cat">
+            <img class="c-i" src="pics/fashion.png" alt="">
+            <p class="c-n">Fashion & Beauty</p>
+        </div>
 
-  <div class="cat">
-    <img class="c-i" src="pics/books.png" alt="">
-    <p class="c-n">Books, Sport & Hobbies</p>
-  </div>
+        <div class="cat">
+            <img class="c-i" src="pics/books.png" alt="">
+            <p class="c-n">Books, Sport & Hobbies</p>
+        </div>
 
-  <div class="cat">
-    <img class="c-i" src="pics/kids.png" alt="">
-    <p class="c-n">Kids</p>
-  </div>
-</div>
+        <div class="cat">
+            <img class="c-i" src="pics/kids.png" alt="">
+            <p class="c-n">Kids</p>
+        </div>
+    </div>
+    </div>
 
+    <main class="main">
+        <div class="header">
+            <h2>Mobile Phones</h1>
+                <p>View more <ion-icon name="chevron-forward-outline"></ion-icon></p>
+        </div>
+        <figure class="card">
+            <div>
+                <img src="/images/mobile.png" alt="">
+            </div>
+
+            <figcaption>
+                <div class="head">
+                    <h3>Rs 178,000</h3>
+                    <ion-icon name="heart-outline"></ion-icon>
+                </div>
+                <h4>one plus 10 pro</h2>
+                    <p>Johar Town,Lahore</p>
+                    <p>2 weeks ago</p>
+            </figcaption>
+        </figure>
+
+        <figure class="card">
+            <div>
+                <img src="/images/mobile.png" alt="">
+            </div>
+
+            <figcaption>
+                <div class="head">
+                    <h3>Rs 178,000</h3>
+                    <ion-icon name="heart-outline"></ion-icon>
+                </div>
+                <h4>one plus 10 pro</h2>
+                    <p>Johar Town,Lahore</p>
+                    <p>2 weeks ago</p>
+            </figcaption>
+        </figure>
+
+        <figure class="card">
+            <div>
+                <img src="/images/mobile.png" alt="">
+            </div>
+
+            <figcaption>
+                <div class="head">
+                    <h3>Rs 178,000</h3>
+                    <ion-icon name="heart-outline"></ion-icon>
+                </div>
+                <h4>one plus 10 pro</h2>
+                    <p>Johar Town,Lahore</p>
+                    <p>2 weeks ago</p>
+            </figcaption>
+        </figure>
+
+        <figure class="card">
+            <div>
+                <img src="/images/mobile.png" alt="">
+            </div>
+
+            <figcaption>
+                <div class="head">
+                    <h3>Rs 178,000</h3>
+                    <ion-icon name="heart-outline"></ion-icon>
+                </div>
+                <h4>one plus 10 pro</h2>
+                    <p>Johar Town,Lahore</p>
+                    <p>2 weeks ago</p>
+            </figcaption>
+        </figure>
+
+
+        <div class="header">
+            <h2>Cars</h1>
+                <p>View more <ion-icon name="chevron-forward-outline"></ion-icon></p>
+        </div>
+
+        <figure class="card">
+            <div>
+                <img src="/images/Cars.png" alt="">
+            </div>
+
+            <figcaption>
+                <div class="head">
+                    <h3>Rs 178,000</h3>
+                    <ion-icon name="heart-outline"></ion-icon>
+                </div>
+                <h4>one plus 10 pro</h2>
+                    <p>Johar Town,Lahore</p>
+                    <p>2 weeks ago</p>
+            </figcaption>
+        </figure>
+
+        <figure class="card">
+            <div>
+                <img src="/images/Cars.png" alt="">
+            </div>
+
+            <figcaption>
+                <div class="head">
+                    <h3>Rs 178,000</h3>
+                    <ion-icon name="heart-outline"></ion-icon>
+                </div>
+                <h4>one plus 10 pro</h2>
+                    <p>Johar Town,Lahore</p>
+                    <p>2 weeks ago</p>
+            </figcaption>
+        </figure>
+
+        <figure class="card">
+            <div>
+                <img src="/images/Cars.png" alt="">
+            </div>
+
+            <figcaption>
+                <div class="head">
+                    <h3>Rs 178,000</h3>
+                    <ion-icon name="heart-outline"></ion-icon>
+                </div>
+                <h4>one plus 10 pro</h2>
+                    <p>Johar Town,Lahore</p>
+                    <p>2 weeks ago</p>
+            </figcaption>
+        </figure>
+
+        <figure class="card">
+            <div>
+                <img src="/images/Cars.png" alt="">
+            </div>
+
+            <figcaption>
+                <div class="head">
+                    <h3>Rs 178,000</h3>
+                    <ion-icon name="heart-outline"></ion-icon>
+                </div>
+                <h4>one plus 10 pro</h2>
+                    <p>Johar Town,Lahore</p>
+                    <p>2 weeks ago</p>
+            </figcaption>
+        </figure>
+
+        <div class="header">
+            <h2>Bikes & Motorcycles</h1>
+                <p>View more <ion-icon name="chevron-forward-outline"></ion-icon></p>
+        </div>
+
+        <figure class="card">
+            <div>
+                <img src="/images/bikes.png" alt="">
+            </div>
+
+            <figcaption>
+                <div class="head">
+                    <h3>Rs 178,000</h3>
+                    <ion-icon name="heart-outline"></ion-icon>
+                </div>
+                <h4>one plus 10 pro</h2>
+                    <p>Johar Town,Lahore</p>
+                    <p>2 weeks ago</p>
+            </figcaption>
+        </figure>
+
+        <figure class="card">
+            <div>
+                <img src="/images/bikes.png" alt="">
+            </div>
+
+            <figcaption>
+                <div class="head">
+                    <h3>Rs 178,000</h3>
+                    <ion-icon name="heart-outline"></ion-icon>
+                </div>
+                <h4>one plus 10 pro</h2>
+                    <p>Johar Town,Lahore</p>
+                    <p>2 weeks ago</p>
+            </figcaption>
+        </figure>
+
+        <figure class="card">
+            <div>
+                <img src="/images/bikes.png" alt="">
+            </div>
+
+            <figcaption>
+                <div class="head">
+                    <h3>Rs 178,000</h3>
+                    <ion-icon name="heart-outline"></ion-icon>
+                </div>
+                <h4>one plus 10 pro</h2>
+                    <p>Johar Town,Lahore</p>
+                    <p>2 weeks ago</p>
+            </figcaption>
+        </figure>
+
+        <figure class="card">
+            <div>
+                <img src="/images/bikes.png" alt="">
+            </div>
+
+            <figcaption>
+                <div class="head">
+                    <h3>Rs 178,000</h3>
+                    <ion-icon name="heart-outline"></ion-icon>
+                </div>
+                <h4>one plus 10 pro</h2>
+                    <p>Johar Town,Lahore</p>
+                    <p>2 weeks ago</p>
+            </figcaption>
+        </figure>
+
+        <div class="header">
+            <h2>TV - Video - Audio</h1>
+                <p>View more <ion-icon name="chevron-forward-outline"></ion-icon></p>
+        </div>
+
+        <figure class="card">
+            <div>
+                <img src="/images/Tv.png" alt="">
+            </div>
+
+            <figcaption>
+                <div class="head">
+                    <h3>Rs 178,000</h3>
+                    <ion-icon name="heart-outline"></ion-icon>
+                </div>
+                <h4>one plus 10 pro</h2>
+                    <p>Johar Town,Lahore</p>
+                    <p>2 weeks ago</p>
+            </figcaption>
+        </figure>
+
+        <figure class="card">
+            <div>
+                <img src="/images/Tv.png" alt="">
+            </div>
+
+            <figcaption>
+                <div class="head">
+                    <h3>Rs 178,000</h3>
+                    <ion-icon name="heart-outline"></ion-icon>
+                </div>
+                <h4>one plus 10 pro</h2>
+                    <p>Johar Town,Lahore</p>
+                    <p>2 weeks ago</p>
+            </figcaption>
+        </figure>
+
+        <figure class="card">
+            <div>
+                <img src="/images/Tv.png" alt="">
+            </div>
+
+            <figcaption>
+                <div class="head">
+                    <h3>Rs 178,000</h3>
+                    <ion-icon name="heart-outline"></ion-icon>
+                </div>
+                <h4>one plus 10 pro</h2>
+                    <p>Johar Town,Lahore</p>
+                    <p>2 weeks ago</p>
+            </figcaption>
+        </figure>
+
+        <figure class="card">
+            <div>
+                <img src="/images/Tv.png" alt="">
+            </div>
+
+            <figcaption>
+                <div class="head">
+                    <h3>Rs 178,000</h3>
+                    <ion-icon name="heart-outline"></ion-icon>
+                </div>
+                <h4>one plus 10 pro</h2>
+                    <p>Johar Town,Lahore</p>
+                    <p>2 weeks ago</p>
+            </figcaption>
+        </figure>
+
+        <div class="header">
+            <h2>Tablets</h1>
+                <p>View more <ion-icon name="chevron-forward-outline"></ion-icon></p>
+        </div>
+
+        <figure class="card">
+            <div>
+                <img src="/images/Tablets.png" alt="">
+            </div>
+
+            <figcaption>
+                <div class="head">
+                    <h3>Rs 178,000</h3>
+                    <ion-icon name="heart-outline"></ion-icon>
+                </div>
+                <h4>one plus 10 pro</h2>
+                    <p>Johar Town,Lahore</p>
+                    <p>2 weeks ago</p>
+            </figcaption>
+        </figure>
+
+        <figure class="card">
+            <div>
+                <img src="/images/Tablets.png" alt="">
+            </div>
+
+            <figcaption>
+                <div class="head">
+                    <h3>Rs 178,000</h3>
+                    <ion-icon name="heart-outline"></ion-icon>
+                </div>
+                <h4>one plus 10 pro</h2>
+                    <p>Johar Town,Lahore</p>
+                    <p>2 weeks ago</p>
+            </figcaption>
+        </figure>
+
+        <figure class="card">
+            <div>
+                <img src="/images/Tablets.png" alt="">
+            </div>
+
+            <figcaption>
+                <div class="head">
+                    <h3>Rs 178,000</h3>
+                    <ion-icon name="heart-outline"></ion-icon>
+                </div>
+                <h4>one plus 10 pro</h2>
+                    <p>Johar Town,Lahore</p>
+                    <p>2 weeks ago</p>
+            </figcaption>
+        </figure>
+
+        <figure class="card">
+            <div>
+                <img src="/images/Tablets.png" alt="">
+            </div>
+
+            <figcaption>
+                <div class="head">
+                    <h3>Rs 178,000</h3>
+                    <ion-icon name="heart-outline"></ion-icon>
+                </div>
+                <h4>one plus 10 pro</h2>
+                    <p>Johar Town,Lahore</p>
+                    <p>2 weeks ago</p>
+            </figcaption>
+        </figure>
+
+        <div class="header">
+            <h2>Land & Plots</h1>
+                <p>View more <ion-icon name="chevron-forward-outline"></ion-icon></p>
+        </div>
+
+        <figure class="card">
+            <div>
+                <img src="/images/Land .png" alt="">
+            </div>
+
+            <figcaption>
+                <div class="head">
+                    <h3>Rs 178,000</h3>
+                    <ion-icon name="heart-outline"></ion-icon>
+                </div>
+                <h4>one plus 10 pro</h2>
+                    <p>Johar Town,Lahore</p>
+                    <p>2 weeks ago</p>
+            </figcaption>
+        </figure>
+
+        <figure class="card">
+            <div>
+                <img src="/images/Land .png" alt="">
+            </div>
+
+            <figcaption>
+                <div class="head">
+                    <h3>Rs 178,000</h3>
+                    <ion-icon name="heart-outline"></ion-icon>
+                </div>
+                <h4>one plus 10 pro</h2>
+                    <p>Johar Town,Lahore</p>
+                    <p>2 weeks ago</p>
+            </figcaption>
+        </figure>
+
+        <figure class="card">
+            <div>
+                <img src="/images/Land .png" alt="">
+            </div>
+
+            <figcaption>
+                <div class="head">
+                    <h3>Rs 178,000</h3>
+                    <ion-icon name="heart-outline"></ion-icon>
+                </div>
+                <h4>one plus 10 pro</h2>
+                    <p>Johar Town,Lahore</p>
+                    <p>2 weeks ago</p>
+            </figcaption>
+        </figure>
+
+        <figure class="card">
+            <div>
+                <img src="/images/Land .png" alt="">
+            </div>
+
+            <figcaption>
+                <div class="head">
+                    <h3>Rs 178,000</h3>
+                    <ion-icon name="heart-outline"></ion-icon>
+                </div>
+                <h4>one plus 10 pro</h2>
+                    <p>Johar Town,Lahore</p>
+                    <p>2 weeks ago</p>
+            </figcaption>
+        </figure>
+
+        <div class="header">
+            <h2>Jobs</h1>
+                <p>View more <ion-icon name="chevron-forward-outline"></ion-icon></p>
+        </div>
+
+        <figure class="card">
+            <div>
+                <img src="/images/job.png" alt="">
+            </div>
+
+            <figcaption>
+                <div class="head">
+                    <h3>Rs 178,000</h3>
+                    <ion-icon name="heart-outline"></ion-icon>
+                </div>
+                <h4>one plus 10 pro</h2>
+                    <p>Johar Town,Lahore</p>
+                    <p>2 weeks ago</p>
+            </figcaption>
+        </figure>
+
+        <figure class="card">
+            <div>
+                <img src="/images/job.png" alt="">
+            </div>
+
+            <figcaption>
+                <div class="head">
+                    <h3>Rs 178,000</h3>
+                    <ion-icon name="heart-outline"></ion-icon>
+                </div>
+                <h4>one plus 10 pro</h2>
+                    <p>Johar Town,Lahore</p>
+                    <p>2 weeks ago</p>
+            </figcaption>
+        </figure>
+
+        <figure class="card">
+            <div>
+                <img src="/images/job.png" alt="">
+            </div>
+
+            <figcaption>
+                <div class="head">
+                    <h3>Rs 178,000</h3>
+                    <ion-icon name="heart-outline"></ion-icon>
+                </div>
+                <h4>one plus 10 pro</h2>
+                    <p>Johar Town,Lahore</p>
+                    <p>2 weeks ago</p>
+            </figcaption>
+        </figure>
+
+        <figure class="card">
+            <div>
+                <img src="/images/job.png" alt="">
+            </div>
+
+            <figcaption>
+                <div class="head">
+                    <h3>Rs 178,000</h3>
+                    <ion-icon name="heart-outline"></ion-icon>
+                </div>
+                <h4>one plus 10 pro</h2>
+                    <p>Johar Town,Lahore</p>
+                    <p>2 weeks ago</p>
+            </figcaption>
+        </figure>
+    </main>
+    <div class="outer">
+        <div class="lower-part">
+            <div class="content">
+                <img src="images/olx-img.png" alt="">
+            </div>
+            <div class="parts">
+                <div class="part-1">Try the olx app</div>
+                <div class="part-2">Buy, sell and find just about anything using the app on your mobile.</div>
+            </div>
+            <div class="line"></div>
+            <div class="part-3">
+                <div class="text">Get your app today</div>
+                <img src="images/img-1.png" alt="">
+                <img src="images/img-2.png" alt="">
+                <img src="images/img-3.png" alt="">
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="contents">
+            <div class="cont">
+                <section class="footer-cont">
+                    <ul>
+                        <h2>popular categories</h2>
+                        <li><a href="#">Cars</a></li>
+                        <li><a href="#">Flats for rent</a></li>
+                        <li><a href="#">Mobile Phones</a></li>
+                        <li><a href="#">Jobs</a></li>
+                    </ul>
+                </section>
+                <section class="footer-cont">
+                    <ul>
+                        <h2>TRENDING SEARCHES</h2>
+                        <li><a href="#">Bikes</a></li>
+                        <li><a href="#">Watches</a></li>
+                        <li><a href="#">Books</a></li>
+                        <li><a href="#">Dogs</a></li>
+                    </ul>
+                </section>
+                <section class="footer-cont">
+                    <ul>
+                        <h2>ABOUT US</h2>
+                        <li><a href="#">About Dubizzle Group</a></li>
+                        <li><a href="#">OLX Blog</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">OLX for Businesses</a></li>
+                    </ul>
+                </section>
+                <section class="footer-cont">
+                    <ul>
+                        <h2>OLX</h2>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Sitemap</a></li>
+                        <li><a href="#">Terms of use</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </section>
+                <section class="footer-cont-1">
+                    <h2>Follow us</h2>
+                    <div class="social-links">
+                        <img src="images/links.png" alt="">
+                    </div>
+                    <div class="social-link-2">
+                        <img src="images/soc-link.png" alt="">
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <div class="last">
+            <div class="last-line">
+                Free Classifieds in Pakistan <p>. © 2006-2023 OLX</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- 
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>POPULAR CATEGORIES</h4>
+                    <ul>
+                        <li><a href="#">Cars</a></li>
+                        <li><a href="#">Flats for rent</a></li>
+                        <li><a href="#">Mobile Phones</a></li>
+                        <li><a href="#">Jobs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>TRENDING SEARCHES
+                    </h4>
+                    <ul>
+                        <li><a href="#">Bikes</a></li>
+                        <li><a href="#">Watches</a></li>
+                        <li><a href="#">Books</a></li>
+                        <li><a href="#">Dogs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>OLX</h4>
+                    <ul>
+                        <li><a href="#">About Dubizzle Group</a></li>
+                        <li><a href="#">fOLX Blog</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">OLX for Businesses</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>ABOUT US</h4>
+                    <ul>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Sitemap</a></li>
+                        <li><a href="#">Terms of use</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>FOLLOW US</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fa fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer> -->
 </body>
-
-
-
-<!-- <body>
-<div class="header">
-  <div class="top">
-    <img src="./olx.png" alt="logo" width="40px">
-  </div>
-  <div  class="top">
-    <a href=""><i class="fa fa-car" aria-hidden="true"></i>
-      MOTORS</a>
-    </div>
-    <div  class="top">
-    <a href=""><i class="fa fa-building-o" aria-hidden="true"></i>PROPERTY</a>
-  </div>
-</div>
-  <div class="header-bottom">
-    <div class="logo"> <img src="./black olx.png" alt="logo" width="60px"></div>
-    <div class="top">
-  <select class="search-input" name="" id=""> 
-    <option value="Pakistan">Pakistan</option>
-    <option value="Lahore">Lahore</option>
-    <option value="Islamabad">Islamabad</option>
-    <option value="Multan">Multan</option>
-    <option value="dubai">dubai</option>
-  </select>
-    </div>
-    <div class="top">
-      <input class="search-input search" type="search" placeholder="Find Cars, Mobiles Phones and moe... "/>
-    </div>
-    <div class="top login">
-      <span class="Login"><b>Login</b></span>
-        <button class="sell"><b>+SELL</b></button>
-      </div>
-  </div>
-  
-  
-</body> -->
 
 </html>
